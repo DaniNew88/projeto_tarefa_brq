@@ -7,6 +7,8 @@
      android:background="@drawable/background_gradiente"
     tools:context=".LoginActivity">
 
+    <include layout="@layout/toolbar"/>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="304dp"
@@ -16,7 +18,7 @@
         android:gravity="center"
         android:text="@string/login"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="46dp"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -33,7 +35,7 @@
         android:gravity="center"
         android:text="@string/tarefas"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
