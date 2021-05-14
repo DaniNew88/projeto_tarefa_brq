@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <EditText
+        android:id="@+id/txt_task_description"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/customized_input"
+        android:ems="10"
+        android:hint="Descrição"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <EditText
+        android:id="@+id/txt_task_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/customized_input"
+        android:ems="10"
+        android:hint="Titulo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txt_task_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioGroup
+        android:id="@+id/radio_priority_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_task_description"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RadioButton
+            android:id="@+id/radio_priority_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normal" />
+
+        <RadioButton
+            android:id="@+id/radio_priority_not_urgent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não urgente" />
+
+        <RadioButton
+            android:id="@+id/radio_priority_urgent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urgente" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Nova tarefa"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_task_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

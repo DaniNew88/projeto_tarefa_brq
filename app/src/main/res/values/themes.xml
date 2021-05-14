@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Theme.ProjetoTarefasBRQ" parent="Theme.Design.Light.NoActionBar">
+=======
+    <style name="Theme.ProjetoTarefasBRQ" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+>>>>>>> 7fcf9d02338d43566077905750509da0418a70a6
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
