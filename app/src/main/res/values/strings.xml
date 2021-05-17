@@ -3,10 +3,9 @@
     <string name="digite_seu_e_mail">Digite seu e-mail:</string>
     <string name="digite_sua_senha">Digite sua senha:</string>
     <string name="login">Login</string>
-    <string name="entrar">Entrar</string>
-<<<<<<< HEAD
-    <string name="tarefas">Tarefas</string>
-=======
+    <string name="tarefaslogin">Tarefas</string>
     <string name="task_screen">Tarefas</string>
->>>>>>> 7fcf9d02338d43566077905750509da0418a70a6
+    <string name="tarefa">Tarefa</string>
+    <string name="entrar">Entrar</string>
+
 </resources>
