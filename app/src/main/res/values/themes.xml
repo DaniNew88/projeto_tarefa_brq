@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ProjetoTarefasBRQ" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+
+    <style name="Theme.ProjetoTarefasBRQ" parent="Theme.Design.Light">
+
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -14,3 +18,4 @@
         <!-- Customize your theme here. -->
     </style>
 </resources>
+
