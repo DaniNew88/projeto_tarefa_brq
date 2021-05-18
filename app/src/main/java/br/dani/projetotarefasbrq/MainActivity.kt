@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        //chamar a tela LoginActivity
+         parent as LoginActivity
+
+
         var taskList = ArrayList<Task>()
         taskList.add(Task("Exemplo de titulo","Exemplo de descrição","normal"))
 

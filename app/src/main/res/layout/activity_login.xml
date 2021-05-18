@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-     android:background="@drawable/background_gradiente"
+    android:background="@drawable/background_gradiente"
     tools:context=".LoginActivity">
 
- <include layout ="@layout/toolbar"/>
 
     <TextView
         android:id="@+id/textView"
@@ -47,11 +46,11 @@
         android:layout_width="336dp"
         android:layout_height="66dp"
         android:layout_marginBottom="60dp"
+        android:background="@drawable/background_edittext"
         android:fontFamily="monospace"
         android:hint="@string/digite_seu_e_mail"
         android:inputType="textEmailAddress"
         android:textSize="16sp"
-        android:background="@drawable/background_edittext"
         app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.613"
@@ -62,11 +61,11 @@
         android:layout_width="336dp"
         android:layout_height="66dp"
         android:layout_marginBottom="196dp"
+        android:background="@drawable/background_edittext2"
         android:fontFamily="monospace"
         android:hint="@string/digite_sua_senha"
         android:inputType="textPassword"
         android:textSize="16sp"
-        android:background="@drawable/background_edittext2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.613"
@@ -76,14 +75,13 @@
         android:id="@+id/btn_login"
         android:layout_width="211dp"
         android:layout_height="56dp"
-        android:text="@string/entrar"
         android:background="@drawable/background_btn"
+        android:onClick="@string/entrar"
+        android:text="@string/entrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
