@@ -37,15 +37,16 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.823" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="336dp"
         android:layout_height="66dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/background_edittext"
         android:fontFamily="monospace"
         android:hint="@string/digite_seu_e_mail"
@@ -53,14 +54,14 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="336dp"
         android:layout_height="66dp"
-        android:layout_marginBottom="196dp"
+        android:layout_marginBottom="224dp"
         android:background="@drawable/background_edittext2"
         android:fontFamily="monospace"
         android:hint="@string/digite_sua_senha"
@@ -68,7 +69,7 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -82,6 +83,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/imagem" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
