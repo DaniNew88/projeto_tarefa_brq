@@ -1,2 +1,2 @@
+rootProject.name = "Tarefas"
 include ':app'
-rootProject.name = "Projeto Tarefas BRQ"

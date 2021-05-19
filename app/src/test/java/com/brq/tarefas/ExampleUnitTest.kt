@@ -1,4 +1,4 @@
-package br.dani.projetotarefasbrq
+package com.brq.tarefas
 
 import org.junit.Test
 

@@ -7,24 +7,25 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycle_tasks"
+        android:id="@+id/recycle_main"
         android:layout_width="match_parent"
-        android:layout_height="590dp"
-        android:layout_marginTop="140dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="0dp"
         tools:listitem="@layout/task_item" />
 
-    <TextView
-        android:id="@+id/textView"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_add_task"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tarefas"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/recycle_tasks"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.811"
+        app:srcCompat="@drawable/ic_more" />
 </androidx.constraintlayout.widget.ConstraintLayout>

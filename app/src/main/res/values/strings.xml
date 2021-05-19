@@ -1,7 +1,18 @@
 <resources>
-    <string name="app_name">Projeto Tarefas BRQ</string>
-    <string name="digite_seu_e_mail">Digite seu e-mail:</string>
-    <string name="digite_sua_senha">Digite sua senha:</string>
-    <string name="login">Login</string>
+    <string name="app_name">Tarefas</string>
+    <string name="task_title_example">Este é um exemplo de título!!</string>
+    <string name="task_description_example">Está é uma descrição. Sinta-se livre para criar novas ou editar.</string>
+    <string name="more_infos_description">Mais informações</string>
+    <string name="add_task_description_hint">Descrição</string>
+    <string name="add_task_title_hint">Titulo</string>
+    <string name="priority_urgent">Urgente</string>
+    <string name="priority_important">Importante</string>
+    <string name="priority_normal">Normal</string>
+    <string name="new_task">Nova tarefa</string>
+    <string name="task_save">Salvar</string>
+    <string name="task_cancel">Cancelar</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="digite_seu_e_mail">Digite seu email</string>
     <string name="entrar">Entrar</string>
+    <string name="tarefaslogin">Login</string>
 </resources>
