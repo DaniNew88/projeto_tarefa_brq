@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Projeto Tarefas BRQ</string>
+    <string name="digite_seu_e_mail">Digite seu e-mail:</string>
+    <string name="digite_sua_senha">Digite sua senha:</string>
+    <string name="login">Login</string>
+    <string name="tarefaslogin">Tarefas</string>
+    <string name="task_screen">Tarefas</string>
+    <string name="tarefa">Tarefa</string>
+    <string name="entrar">Entrar</string>
+    <string name="imagem">TODO</string>
+
+</resources>
