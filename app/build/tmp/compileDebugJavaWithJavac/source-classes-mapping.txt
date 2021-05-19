@@ -1,0 +1,2 @@
+com/brq/tarefas/BuildConfig.java
+ com.brq.tarefas.BuildConfig
