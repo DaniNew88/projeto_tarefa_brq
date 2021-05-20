@@ -22,16 +22,13 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-
-
-
         editText3 = findViewById(R.id.editText3)
         btn_login = findViewById(R.id.btn_login)
 
         btn_login.setOnClickListener { validarSenha() }
 
 
-       ////////////////// //botão entrar ir para MainActivity
+       ////////////////// //botão entrar --> ir para MainActivity
 
         val btn_login = findViewById<AppCompatButton>(R.id.btn_login)
         btn_login.setOnClickListener {
@@ -41,7 +38,6 @@ class LoginActivity : AppCompatActivity() {
         }
 
     }
-
    ///////// //validar senha
     private fun validarSenha() {
         editText3.text.apply {
@@ -52,21 +48,14 @@ class LoginActivity : AppCompatActivity() {
                 editText3.error = "Senha inválida"
             } else {
                 editText3.error = null
+
+
+
+                }
+
             }
-        }
 
-    }
+        }}
 
-        //botão entrar ir para MainActivity
 
-            val btn_login = findViewById<AppCompatButton>(R.id.btn_login)
-            btn_login.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-
-    }
-
-  }
-
-}
 

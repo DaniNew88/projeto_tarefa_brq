@@ -22,10 +22,7 @@ class MainActivity : AppCompatActivity() {
 
 
         ////////////////chamar a tela LoginActivity
-
-        //chamar a tela LoginActivity
-
-         parent as LoginActivity
+        parent as LoginActivity
 
 
         var taskList = ArrayList<Task>()
