@@ -11,14 +11,17 @@ import androidx.appcompat.widget.Toolbar
 
 class LoginActivity : AppCompatActivity() {
 
+
     lateinit var editText2: EditText
     lateinit var editText3: EditText
     lateinit var btn_login: AppCompatButton
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
 
 
 
@@ -53,4 +56,17 @@ class LoginActivity : AppCompatActivity() {
         }
 
     }
+
+        //botão entrar ir para MainActivity
+
+            val btn_login = findViewById<AppCompatButton>(R.id.btn_login)
+            btn_login.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+
+    }
+
+  }
+
 }
+

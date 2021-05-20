@@ -20,7 +20,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         ////////////////chamar a tela LoginActivity
+
+        //chamar a tela LoginActivity
+
          parent as LoginActivity
 
 
