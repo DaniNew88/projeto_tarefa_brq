@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat.startActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -25,20 +26,36 @@ class LoginActivity : AppCompatActivity() {
         supportActionBar!!.hide()
 
 
-        editText3 = findViewById(R.id.editText3)
-        btn_login = findViewById(R.id.btn_login)
-
-
-        ////////////////// //botão entrar --> ir para MainActivity
-
+         btn_login = findViewById(R.id.btn_login)
         val btn_login = findViewById<AppCompatButton>(R.id.btn_login)
-        btn_login.setOnClickListener {
-
-
+        btn_loginsetOnClickListener {
+            validarLogin(it.context)
+        }
         }
 
 
+
     }
+
+    private fun validarLogin(context: Context) {
+        var txtPassword = findViewById<TextView>(R.id.editText3)
+        var txtEmail = findViewById<TextView>(R.id.editText2)
+
+        if (txtEmail.text.isNullOrEmpty() || txtPassword.text.isNullOrEmpty()) {
+            txtPassword.setError("Ambos os campos devem ser preenchidos")
+            txtEmail.setError("Ambos os campos devem ser preenchidos")
+        }else if (txtPassword.text.length < 5) {
+            txtPassword.setError("A sua senha esta muito curta, tem certeza que esta correta?")
+        }
+        else{
+            val intent = Intent(ctx, MainActivity::class.java)
+            startActivity(intent)
+
+
+    }
+
+
+}
 }
 
 
